@@ -1,0 +1,104 @@
+.welcome-section{
+    padding: 150px 0px;
+    background:url('../images/hero.png') center;
+    background-size: cover;
+    background-attachment: fixed;
+    .welcome-post{
+        width: 70%;
+    }
+    h1{
+        text-transform: uppercase;
+        color: $primary-color;
+        margin-bottom: 30px;
+        font-size: 56px;
+    }
+    p{
+        line-height: 2;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+}
+
+.cta-box-cover{
+    padding: 80px 0px;
+    #new_ticket{
+        margin-bottom: 80px;
+        .act-pic{
+            background-image: url('../images/opt.png');
+            background-size: cover;
+
+        }
+    }
+    #check_status{
+        .act-pic{
+            background-image: url('../images/cst.png');
+            background-size: cover;
+
+        }
+    }
+    .action-box{
+        background: #fff;
+        .act-pic{
+            background: #555;
+        }
+        .act-text{
+            padding: 30px 30px;
+            text-align:  center;
+            h3{
+                margin:30px 0px;
+                position: relative;
+                &:after{
+                    content: " ";
+                    width:100px;
+                    height: 2px;
+                    background: $primary-color;
+                    position: absolute;
+                    bottom: -30px;
+                    left:50%;
+                    margin-left:-50px;
+
+                }
+            }
+            div{
+                padding: 25px 20px;
+                font-size: 18px;
+            }
+
+            a.button{
+                margin:20px 0px;
+                background: $primary-color;
+                color: #fff;
+                padding: 15px 20px;
+                display: inline-block;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.kb-home-cover{
+    padding: 80px;
+    background: $primary-color;
+    text-align: center;
+    color: #fff;
+    p{
+        font-size: 36px;
+        padding:0px 0px;
+        width: 80%;
+        margin:0px auto;
+    }
+    a{
+        color: #fff;
+    }
+}
+
+.kb-search-form{
+    margin-top:40px;
+    .search{
+        min-width: 300px;
+    }
+    .btn{
+        background: $footer-background;
+        color: $footer-title-color;
+    }
+}

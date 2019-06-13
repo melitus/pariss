@@ -1,0 +1,53 @@
+// footer
+
+#footer-columns{
+    background: $footer-background;
+    padding: 50px 0px;
+    .footer-column{
+        margin:30px 0px;
+
+        h3{
+            text-transform: uppercase;
+            color: $footer-title-color;
+            font-weight: normal;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        p{
+            line-height: 2;
+        }
+        ul{
+            list-style: none;
+            margin:0px 0px;
+            padding: 0px 0px;
+            li{
+                margin:15px 0px;
+                a{
+                    color: $text-color;
+                }
+                a:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+#footer{
+    background: $footer-background;
+    border-top:1px solid rgba(255,255,255,0.05);
+    padding:40px 0px;
+    font-size: 14px;
+    text-align: center;
+    p{
+        margin:0px 0px;
+
+    }
+    a{
+        color:$text-color;
+    }
+    a:hover{
+        color: $primary-color;
+    }
+}

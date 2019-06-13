@@ -1,0 +1,107 @@
+ @import "base";
+ @import "landing";
+ @import "form";
+ @import "faq";
+ @import "head";
+ @import "footer";
+
+body{
+    background: #e4e4e4;
+    color: $text-color;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    color: $title-color;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .row-eq-height {
+      display: block;
+    }
+    .login-box{
+        max-width: 100%;
+        margin:30px auto 30px;
+    }
+    .sublog{
+        max-width: 100%;
+        margin:50px auto 20px ;
+    }
+
+    ul#nav{
+        display: none;
+    }
+    #header a#logo{
+        display: block;
+        text-align: center;
+        margin:0px 0px;
+        padding: 30px 0px 20px;
+    }
+    #header .tinynav{
+        display: block;
+        width: 200px;
+        margin: 0px auto 30px;
+
+    }
+    .topbar .user-data,
+    .topbar .lang-pack{
+        text-align: center;
+        line-height: 30px;
+    }
+    .welcome-section {
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .welcome-section h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .welcome-section .welcome-post{
+        width: 100%;
+    }
+    .act-pic{
+        display: none;
+    }
+    .kb-home-cover p {
+        width: 100%;
+        font-size: 24px;
+    }
+    .kb-home-cover{
+        padding: 40px 0px;
+    }
+    .faq-item .quest-box h2{
+        font-size: 24px;
+        width:100%;
+    }
+}
+.clear{
+    clear:both;
+}
+.cover{
+    padding: 60px 0px;
+}
